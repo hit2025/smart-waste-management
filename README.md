@@ -15,10 +15,11 @@ This project is deployed on **Render.com** for jury evaluation.
 Once deployed, access using:
 
 - **Simulation + Dashboard:**  
-  `https://your-app-name.onrender.com`
+  `https://smart-waste-management-9zmq.onrender.com/`
 
 - **Real-Time Blynk Dashboard:**  
-  `https://your-app-name.onrender.com/realtime`
+ `https://smart-waste-management-9zmq.onrender.com/`
+
 
 ---
 
@@ -29,3 +30,4 @@ Once deployed, access using:
 Install with:
 ```bash
 pip install -r requirements.txt
+
