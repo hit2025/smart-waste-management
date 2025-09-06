@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
     Clone the repo:
 
-git clone https://github.com/yourusername/smart-waste-management.git
+git clone https://github.com/hit2025/smart-waste-management.git
 cd smart-waste-management
 
 Start the simulation app:
@@ -61,3 +61,4 @@ Start the real-time Blynk dashboard:
 python blynk_dashboard.py
 
 → Opens at http://127.0.0.1:8001
+
