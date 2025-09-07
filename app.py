@@ -1,5 +1,3 @@
-# HIT Smart Campus Prototype 
-
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 import datetime, threading, time, random, math
@@ -447,3 +445,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # use Render’s $PORT
     print(f"Starting on port {port} ...")
     uvicorn.run(app, host="0.0.0.0", port=port)
+
