@@ -283,7 +283,7 @@ function switchTab(id) {{
   document.getElementById(id).classList.add('active');
 }}
 
-// ---------------- Simulation (FULL inline) ----------------
+// ---------------- Simulation ----------------
 const map = L.map('map').setView([22.0509,88.0725], 17);
 L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png').addTo(map);
 const binMarkers = {{}}, vehMarkers = {{}}, routes = {{}};
@@ -445,4 +445,5 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # use Render’s $PORT
     print(f"Starting on port {port} ...")
     uvicorn.run(app, host="0.0.0.0", port=port)
+
 
