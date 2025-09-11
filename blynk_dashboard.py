@@ -12,9 +12,6 @@ BLYNK_TEMPLATE_ID = "TMPL3WwPBAikP"
 BLYNK_AUTH_TOKEN  = "RjMBf-HzBoqR5BSr0KeYHHWFZi8B8icQ"
 BASE_URL = f"https://blynk.cloud/external/api/get?token={BLYNK_AUTH_TOKEN}"
 
-# -------------------------
-# Waste Management Data (HIT Campus)
-# -------------------------
 CAMPUS_CENTER = (22.0509, 88.0725)
 
 bins = [
@@ -241,3 +238,4 @@ if __name__ == "__main__":
     port = int(os.getenv("PORT", "8001"))   # Render supplies PORT
     print("Server starting. Use the public Render URL shown in your dashboard.")
     uvicorn.run(app, host="0.0.0.0", port=port)
+
