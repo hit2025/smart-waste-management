@@ -100,7 +100,7 @@ async def submit_complaint(request: Request):
 def qrcode():
     return """
     <html><body>
-    <h2>Scan this QR to file a complaint</h2>
+    <h2>Scan this QR to file a complaint (Mahakumbh)</h2>
     <img src="https://api.qrserver.com/v1/create-qr-code/?data=smart-waste-management-realtime.onrender.com/complaint_form&size=200x200"/>
     </body></html>
     """
@@ -238,5 +238,6 @@ if __name__ == "__main__":
     port = int(os.getenv("PORT", "8001"))   # Render supplies PORT
     print("Server starting. Use the public Render URL shown in your dashboard.")
     uvicorn.run(app, host="0.0.0.0", port=port)
+
 
 
